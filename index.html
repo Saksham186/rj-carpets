@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RJ Carpets | Stair &amp; floor carpet installation</title>
+<meta name="description" content="RJ Carpets installs carpet on stairs, winders, curved steps, hallways and bedrooms. Call 604-615-1907 for a quote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"RJ Carpets","telephone":"+1-604-615-1907","image":"images/pattern-stairs-1.jpg","description":"Carpet installation for stairs, hallways and rooms."}
+</script>
+<style>
+:root{
+  --fog:#eef0f1; --paper:#fafbfb; --ink:#1d2730; --mute:#5d6872; --line:#d3d8dc;
+  --thread:#d9482b; --thread-dark:#b83a20;
+  --display:"Bricolage Grotesque","Arial Black",system-ui,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--fog:#161c22; --paper:#1d252c; --ink:#eceff1; --mute:#a2adb5; --line:#35414a; --thread:#ee6a4d; --thread-dark:#f4846b}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--fog);color:var(--ink);font:400 1.0625rem/1.6 var(--body);-webkit-font-smoothing:antialiased}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--thread);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--display);line-height:1.05;margin:0;letter-spacing:-.02em}
+h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.85rem 1.4rem;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid var(--ink);transition:background .15s,color .15s}
+.btn-main{background:var(--thread);border-color:var(--thread);color:#fff}
+.btn-main:hover{background:var(--thread-dark);border-color:var(--thread-dark)}
+.btn-line:hover{background:var(--ink);color:var(--fog)}
+
+header{position:sticky;top:0;z-index:5;background:var(--fog);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font:800 1.4rem var(--display);text-decoration:none;letter-spacing:-.03em}
+.logo span{color:var(--thread)}
+header nav{display:flex;align-items:center;gap:22px}
+header nav a:not(.btn){text-decoration:none;font-weight:500}
+header nav a:not(.btn):hover{text-decoration:underline}
+header .btn{padding:.5rem 1rem}
+@media(max-width:700px){header nav a:not(.btn){display:none}}
+
+.hero{padding:48px 0 72px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,7vw,5rem);font-weight:800}
+.hero p{max-width:34rem;color:var(--mute);font-size:1.2rem;margin:22px 0 30px}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero .photo{position:relative}
+.hero .photo img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px}
+.hero .photo::before{content:"";position:absolute;inset:18px -14px -14px 18px;border:2px solid var(--thread);border-radius:6px;z-index:-1}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr}.hero .photo{max-width:420px}}
+
+section{padding:72px 0}
+.head{max-width:36rem;margin-bottom:40px}
+.head p{color:var(--mute);margin:12px 0 0}
+
+/* gallery: columns step down like a staircase */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding-bottom:90px}
+.steps img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;background:var(--line)}
+.steps figure{margin:0}
+.steps figure:nth-child(4n+2){transform:translateY(30px)}
+.steps figure:nth-child(4n+3){transform:translateY(60px)}
+.steps figure:nth-child(4n+4){transform:translateY(90px)}
+.steps figcaption{font-size:.9rem;color:var(--mute);margin-top:8px}
+@media(max-width:820px){
+  .steps{grid-template-columns:repeat(2,1fr);padding-bottom:40px}
+  .steps figure:nth-child(n){transform:none}
+  .steps figure:nth-child(even){transform:translateY(28px)}
+}
+
+.videos{background:var(--paper);border-block:1px solid var(--line)}
+.videos .row{display:flex;flex-wrap:wrap;gap:24px}
+.videos video{width:min(100%,300px);aspect-ratio:464/832;border-radius:6px;background:#000}
+
+.services ul{list-style:none;margin:0;padding:0;max-width:760px}
+.services li{display:grid;grid-template-columns:minmax(180px,1fr) 2fr;gap:8px 32px;padding:20px 0;border-top:1px solid var(--line)}
+.services li:last-child{border-bottom:1px solid var(--line)}
+.services h3{font-size:1.25rem;font-weight:600;letter-spacing:-.01em}
+.services p{margin:0;color:var(--mute)}
+@media(max-width:600px){.services li{grid-template-columns:1fr}}
+
+.contact{background:var(--ink);color:var(--fog)}
+@media(prefers-color-scheme:dark){.contact{background:var(--paper);color:var(--ink)}}
+.contact .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:end}
+.contact .tel{display:block;font:800 clamp(2.2rem,7vw,4.5rem)/1 var(--display);letter-spacing:-.03em;text-decoration:none;margin:18px 0 8px}
+.contact .tel:hover{color:var(--thread)}
+.contact p{margin:0;opacity:.8}
+.contact .actions{display:flex;flex-direction:column;gap:12px}
+.contact .btn-line{border-color:currentColor}
+.contact .btn-line:hover{background:var(--fog);color:var(--ink)}
+@media(max-width:820px){.contact .wrap{grid-template-columns:1fr}.contact .actions{flex-direction:row;flex-wrap:wrap}}
+footer{padding:22px 0;font-size:.9rem;color:var(--mute)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">RJ<span>.</span>Carpets</a>
+    <nav>
+      <a href="#work">Our work</a>
+      <a href="#services">Services</a>
+      <a class="btn btn-main" href="tel:+16046151907">Call 604-615-1907</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Carpet that fits every step.</h1>
+        <p>RJ Carpets installs carpet on straight stairs, winders, curved steps, hallways and bedrooms. Tight corners and awkward angles are our everyday work.</p>
+        <div class="actions">
+          <a class="btn btn-main" href="tel:+16046151907">Call for a quote</a>
+          <a class="btn btn-line" href="#work">See our work</a>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="images/pattern-stairs-1.jpg" alt="Staircase finished in patterned grey carpet with wrapped edges" width="1100" height="1467" fetchpriority="high">
+      </div>
+    </div>
+  </div>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="head">
+        <h2>Recent stair jobs</h2>
+        <p>Straight runs, corner winders and rounded steps, each cut and wrapped to fit.</p>
+      </div>
+      <div class="steps">
+        <figure><img loading="lazy" src="images/pattern-stairs-2.jpg" alt="Straight staircase in patterned grey carpet beside a black metal railing"><figcaption>Patterned carpet, straight stairs</figcaption></figure>
+        <figure><img loading="lazy" src="images/winder-stairs.jpg" alt="Corner winder steps in grey carpet seen from above"><figcaption>Corner winder steps</figcaption></figure>
+        <figure><img loading="lazy" src="images/curved-stairs.jpg" alt="Curved bottom steps covered in taupe carpet"><figcaption>Curved bottom steps</figcaption></figure>
+        <figure><img loading="lazy" src="images/striped-stairs.jpg" alt="Narrow staircase in grey striped loop carpet"><figcaption>Striped loop carpet</figcaption></figure>
+        <figure><img loading="lazy" src="images/grey-stairs.jpg" alt="Long straight staircase with grey plush carpet and white handrail"><figcaption>Plush grey, full flight</figcaption></figure>
+        <figure><img loading="lazy" src="images/angled-stairs.jpg" alt="Angled bottom steps in beige carpet with clean mitred corners"><figcaption>Angled steps, mitred corners</figcaption></figure>
+        <figure><img loading="lazy" src="images/pattern-stairs-3.jpg" alt="Patterned grey carpet on stairs with wrapped side walls"><figcaption>Carpet wrapped up the walls</figcaption></figure>
+        <figure><img loading="lazy" src="images/pattern-stairs-1.jpg" alt="Close view of patterned grey stair carpet"><figcaption>Pattern lined up on every tread</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="videos" aria-labelledby="vid-h">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="vid-h">Watch the finished work</h2>
+      </div>
+      <div class="row">
+        <video controls playsinline preload="none" poster="video/work-1.jpg"><source src="video/work-1.mp4" type="video/mp4"></video>
+        <video controls playsinline preload="none" poster="video/work-2.jpg"><source src="video/work-2.mp4" type="video/mp4"></video>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="head">
+        <h2>What we do</h2>
+      </div>
+      <ul>
+        <li><h3>Stair carpet</h3><p>Straight flights, landings and open-sided stairs, installed tight with clean edges.</p></li>
+        <li><h3>Winders and curved steps</h3><p>Pie-shaped and rounded treads cut to the exact angle.</p></li>
+        <li><h3>Hallways and bedrooms</h3><p>New carpet for rooms, with seams placed out of sight lines.</p></li>
+        <li><h3>Repairs and restretching</h3><p>Fix loose, rippled or worn carpet without replacing the whole room.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div>
+        <h2>Get a free quote</h2>
+        <a class="tel" href="tel:+16046151907">604-615-1907</a>
+        <p>Call or text with a photo of your stairs and we'll get back to you.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-main" href="tel:+16046151907">Call now</a>
+        <a class="btn btn-line" href="sms:+16046151907">Text a photo</a>
+        <a class="btn btn-line" href="https://wa.me/16046151907">Message on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="yr">2026</span> RJ Carpets</div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
+</body>
+</html>
